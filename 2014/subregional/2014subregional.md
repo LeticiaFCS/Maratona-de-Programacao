@@ -43,6 +43,42 @@ _LeticiaFCS_
 
 **Código:** [D - Dona Minhoca](./d.cpp)
 
+### E - Ecologia
+Nós começamos gerando o [poliminó](https://pt.wikipedia.org/wiki/Polimin%C3%B3) com **tamanho = m**. Podemos fazer isso usando como base o poliminó com **tam = 1** que é somente o bloco **{0,0}** e para cada poliminó de tamanho **T** ir acrescentando blocos nas bordas para criar os poliminós com tamanho **T+1**. Temos que tomar o cuidado de não gerar poliminós repetidos, para isso podemos manter sempre o bloco **{x,y}** lexicograficamente menor de um poliminó como o par **{0,0}**, caso isso não seja verdade em dado momento nós diminuímos o par **{x,y}** de todos o blocos do poliminó e só armazenamos os poliminós ainda não armazenados. Depois para cada posição da matriz tentamos colocar cada poliminó de tamanho **m** e caso isso seja possível somamos os valores da matriz que ficaram embaixo de um bloco do poliminó guardando a maior soma encontrada.
+
+_LeticiaFCS_
+
+**Link:** [URI 1712](https://www.urionlinejudge.com.br/judge/pt/problems/view/1712) 
+
+**Código:** [E - Ecologia](./e.cpp)
+
+### F - Teletransporte
+Usando o fato de que quando consideramos uma potência **K** de uma matriz de adjacências a célula **{i,j}** dessa matriz representa o número de caminhos de tamanho **K** de **i** para **j** nós só precisamos gerar essa matriz de adjacências e exponenciá-la tomando o cuidado de sempre guardar o módulo, podemos fazer isso com o método da exponenciação rápida. A resposta estará na célula **{S,T}**.
+
+_LeticiaFCS_
+
+**Link:** [URI 1713](https://www.urionlinejudge.com.br/judge/pt/problems/view/1713) 
+
+**Código:** [F - Teletransporte](./f.cpp)
+
+### G - Letras
+Como o problema só usa 26 letras podemos criar uma máscara de bits para cada configuração de letras maiúsculas/minúsculas e, para cada uma delas fazer uma BFS partindo da célula **{1,1}** respeitando a máscara e computando a distância de cada célula à célula inicial. Devemos a cada busca guardar a menor distância entre as células **{1,1}** e **{N,N}**.
+
+_LeticiaFCS_
+
+**Link:** [URI 1714](https://www.urionlinejudge.com.br/judge/pt/problems/view/1714) 
+
+**Código:** [G - Letras](./g.cpp)
+
+### H - Handebol
+Para cada jogador devemos percorrer sua linha incrementando um contador de em quantas partidas esse jogador fez pelo menos um gol. Se o contador chegou ao número total de partidas incrementamos a resposta.
+
+_LeticiaFCS_
+
+**Link:** [URI 1715](https://www.urionlinejudge.com.br/judge/pt/problems/view/1715) 
+
+**Código:** [H - Handebol](./h.cpp)
+
 [voltar](https://leticiafcs.github.io/Maratona-de-Programacao/)
 
 
