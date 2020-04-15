@@ -90,7 +90,8 @@ _LeticiaFCS_
 
 ### K - Pizza do Vô Pepe
 Começamos marcando em um vetor o número de azeitonas em cada posição e computando a soma de prefixos do número de azeitonas até cada uma delas, como o vetor é circular antes de computar a soma de prefixos concatenamos ele no final dele mesmo.
-Depois, para cada posição testamos se ela é um início válido para uma divisão, ela será um início válido se nós dividirmos a pizza em **c/n** blocos começando nesse início e formos andando de um em um bloco e o número de azeitonas desse início até o final do bloco atual sempre for incrementado em 1. A resposta será 'S' se houver algum início válido.
+Depois, para cada posição testamos se ela é um início válido para uma divisão, ela será um início válido se nós dividirmos a pizza em **c/n** blocos iguais começando nesse início e formos andando de um em um bloco e o número de azeitonas desse início até o final do bloco atual sempre for incrementando em 1. 
+A resposta será **'S'** se houver algum início válido.
 
 _LeticiaFCS_
 
