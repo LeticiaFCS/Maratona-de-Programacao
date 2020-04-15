@@ -1,6 +1,6 @@
 # Maratona de Programação
 
-Eu criei esse repositório porque não encontrei facilmente um lugar om os tutoriais de competições passadas da Maratona de Programação e também como forma de me estimular a treinar mais.
+Eu criei esse repositório porque não encontrei facilmente um lugar com os tutoriais de competições passadas da Maratona de Programação e também como forma de me estimular a treinar mais.
 
 Eu vou adicionando os problemas conforme for resolvendo, caso queira contribuir com o repositório seguir o modelo da pasta MODELO.
 
