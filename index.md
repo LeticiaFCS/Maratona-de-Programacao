@@ -2,18 +2,12 @@
 layout: default
 ---
 
+A Maratona de Programação é um evento promovido pela SBC desde 1996 que serve como competição classificatória para o International Collegiate Programming Contest(ICPC). Ela é dividida em duas fases, a primeira fase (ou subregional) e a final brasileira (ou regional). Mais informações sobre a competição em: [Maratona SBC de Programação](http://maratona.ime.usp.br)
+
+Eu criei esse repositório porque não encontrei um lugar fácil de achar os editoriais de competições passadas e também como forma de me estimular a treinar mais. Vou colocando as soluções dos problemas conforme for fazendo.
+
 # Anos:
 *	[2014](./2014/2014.md)
-
-## Subregional
-
-### A - Volta
-Precisamos achar a primeira volta **V** tal que o tempo total que o piloto mais rápido passou na pista antes de completá-la é menor ou igual ao tempo que o piloto mais lento passou na pista antes de completar a volta V-1, ou seja, devemos achar **V** tal que **V*X <= (V-1)*Y**. 
-Logo, **V = ⌈ Y  (Y-X) ⌉**.
-
-**Link:** [URI 1708](https://www.urionlinejudge.com.br/judge/pt/problems/view/1708)
-
-**Código:** [A - Corte](https://github.com/LeticiaFCS/Maratona-de-Programacao/tree/master/2014/subregional/A%20-%20Volta/a.cpp)
 
 
 
