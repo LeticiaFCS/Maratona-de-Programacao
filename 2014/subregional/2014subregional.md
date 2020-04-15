@@ -7,8 +7,8 @@ layout: default
 ## Subregional
 
 ### A - Volta
-Precisamos achar a primeira volta **V** tal que o tempo total que o piloto mais rápido passou na pista antes de completá-la é menor ou igual ao tempo que o piloto mais lento passou na pista antes de completar a volta **V-1**, ou seja, devemos achar o menor **V** tal que **V×X <= (V-1)×Y**. 
- Logo, **V = ⌈ Y  ÷ (Y-X) ⌉**.
+Precisamos achar a primeira volta **V** tal que o tempo total que o piloto mais rápido passou na pista antes de completá-la é menor ou igual ao tempo que o piloto mais lento passou na pista antes de completar a volta **V - 1**, ou seja, devemos achar o menor **V** tal que **V × X <= (V - 1) × Y**. 
+ Logo, **V = ⌈ Y  ÷ (Y - X) ⌉**.
 
 _LeticiaFCS_
 
@@ -44,7 +44,7 @@ _LeticiaFCS_
 **Código:** [D - Dona Minhoca](./d.cpp)
 
 ### E - Ecologia
-Nós começamos gerando o [poliminó](https://pt.wikipedia.org/wiki/Polimin%C3%B3) com **tamanho = m**. Podemos fazer isso usando como base o poliminó com **tam = 1** que é somente o bloco **{0,0}** e para cada poliminó de tamanho **T** ir acrescentando blocos nas bordas para criar os poliminós com tamanho **T+1**. Temos que tomar o cuidado de não gerar poliminós repetidos, para isso podemos manter sempre o bloco **{x,y}** lexicograficamente menor de um poliminó como o par **{0,0}**, caso isso não seja verdade em dado momento nós diminuímos o par **{x,y}** de todos o blocos do poliminó e só armazenamos os poliminós ainda não armazenados. Depois para cada posição da matriz tentamos colocar cada poliminó de tamanho **m** e caso isso seja possível somamos os valores da matriz que ficaram embaixo de um bloco do poliminó guardando a maior soma encontrada.
+Nós começamos gerando os [poliminós](https://pt.wikipedia.org/wiki/Polimin%C3%B3) com **tamanho = m**. Podemos fazer isso usando como base o poliminó com **tam = 1** que é somente o bloco **{0,0}** e para cada poliminó de tamanho **T** ir acrescentando blocos nas bordas para criar os poliminós com tamanho **T+1**. Temos que tomar o cuidado de não gerar poliminós repetidos, para isso podemos manter sempre o bloco **{x,y}** lexicograficamente menor de um poliminó como o par **{0,0}**, caso isso não seja verdade em dado momento nós diminuímos o par **{x,y}** de todos o blocos do poliminó e só armazenamos os poliminós ainda não armazenados. Depois para cada posição da matriz tentamos colocar cada poliminó de tamanho **m** e caso isso seja possível somamos os valores da matriz que ficaram embaixo de um bloco do poliminó guardando a maior soma encontrada.
 
 _LeticiaFCS_
 
@@ -53,7 +53,7 @@ _LeticiaFCS_
 **Código:** [E - Ecologia](./e.cpp)
 
 ### F - Teletransporte
-Usando o fato de que quando consideramos uma potência **K** de uma matriz de adjacências a célula **{i,j}** dessa matriz representa o número de caminhos de tamanho **K** de **i** para **j** nós só precisamos gerar essa matriz de adjacências e exponenciá-la tomando o cuidado de sempre guardar o módulo, podemos fazer isso com o método da exponenciação rápida. A resposta estará na célula **{S,T}**.
+Usando o fato de que quando consideramos uma potência **K** de uma matriz de adjacências a célula **{i,j}** dessa matriz representa o número de caminhos de tamanho **K** de **i** para **j** nós só precisamos gerar essa matriz de adjacências e exponenciá-la tomando o cuidado de sempre guardar o módulo, podemos fazer isso com o [método da exponenciação rápida](https://www.hackerearth.com/pt-br/practice/notes/matrix-exponentiation-1/). A resposta estará na célula **{S,T}**.
 
 _LeticiaFCS_
 
@@ -78,6 +78,25 @@ _LeticiaFCS_
 **Link:** [URI 1715](https://www.urionlinejudge.com.br/judge/pt/problems/view/1715) 
 
 **Código:** [H - Handebol](./h.cpp)
+
+### I - RSA
+Para resolver a questão calculamos **d** que é o [inverso modular](https://www.geeksforgeeks.org/multiplicative-inverse-under-modulo-m/) de **e** módulo [phi](https://www.geeksforgeeks.org/eulers-totient-function/)(**n**) e depois calculamos **m = c^d mod n**, podemos fazer isso com o [método da exponenciação rápida](https://www.geeksforgeeks.org/modular-exponentiation-power-in-modular-arithmetic/).
+
+_LeticiaFCS_
+
+**Link:** [URI 1716](https://www.urionlinejudge.com.br/judge/pt/problems/view/1716) 
+
+**Código:** [I - RSA](./i.cpp)
+
+### K - Pizza do Vô Pepe
+Começamos marcando em um vetor o número de azeitonas em cada posição e computando a soma de prefixos do número de azeitonas até cada uma delas, como o vetor é circular antes de computar a soma de prefixos concatenamos ele no final dele mesmo.
+Depois, para cada posição testamos se ela é um início válido para uma divisão, ela será um início válido se nós dividirmos a pizza em **c/n** blocos começando nesse início e formos andando de um em um bloco e o número de azeitonas desse início até o final do bloco atual sempre for incrementado em 1. A resposta será 'S' se houver algum início válido.
+
+_LeticiaFCS_
+
+**Link:** [URI 1718](https://www.urionlinejudge.com.br/judge/pt/problems/view/1718) 
+
+**Código:** [K - Pizza do Vô Pepe](./k.cpp)
 
 [voltar](https://leticiafcs.github.io/Maratona-de-Programacao/)
 
