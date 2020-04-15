@@ -1,4 +1,4 @@
-# Maratona-de-Programacao
+# Maratona de Programação
 Repositório com editoriais de problemas da Maratona SBC de Programação.
 
 Seguir a seguinte estrutura para os diretórios: [ano] --> [subregional]/[regional] --> [LETRA - Nome do problema]
