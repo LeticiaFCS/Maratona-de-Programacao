@@ -2,10 +2,8 @@
 layout: default
 ---
 
-
-
-
-# 2014
+# Anos:
+*	[2014](./2014/2014.md)
 
 ## Subregional
 
@@ -15,7 +13,7 @@ Logo, **V = ⌈ Y  (Y-X) ⌉**.
 
 **Link:** [URI 1708](https://www.urionlinejudge.com.br/judge/pt/problems/view/1708)
 
-**Código:** [A - Corte](https://github.com/LeticiaFCS/Maratona-de-Programacao/tree/master/2014/subregional/A%20-%20Volta)
+**Código:** [A - Corte](https://github.com/LeticiaFCS/Maratona-de-Programacao/tree/master/2014/subregional/A%20-%20Volta/a.cpp)
 
 
 
