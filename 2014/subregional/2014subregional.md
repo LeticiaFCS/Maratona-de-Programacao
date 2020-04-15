@@ -12,7 +12,8 @@ Precisamos achar a primeira volta **V** tal que o tempo total que o piloto mais 
 
 _LeticiaFCS_
 
-<div align="left|right|center|justify"> **Link:**[URI 1708](https://www.urionlinejudge.com.br/judge/pt/problems/view/1708) **Código:**[A - Volta](./subregional/a.cpp)</div>
+**Link:** [URI 1708](https://www.urionlinejudge.com.br/judge/pt/problems/view/1708) 
+**Código:** [A - Volta](./subregional/a.cpp)
 
 [voltar](https://leticiafcs.github.io/Maratona-de-Programacao/)
 
