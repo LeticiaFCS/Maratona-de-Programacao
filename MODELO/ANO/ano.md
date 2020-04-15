@@ -14,3 +14,5 @@ _SEU NOME OU HANDLE AQUI_
 **Link:** [Online Judge](Link)
 
 **Código:** [LETRA - Nome da Questão](./[subregional] ou [regional]/LETRA.cpp)
+
+[back](./)
