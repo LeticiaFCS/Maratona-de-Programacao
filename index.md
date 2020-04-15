@@ -10,11 +10,11 @@ layout: default
 ## Subregional
 
 ### A - Volta
-Precisamos achar a primeira volta **V** tal que o tempo total que o piloto mais rápido passou na pista antes de completá-la é menor ou igual ao tempo que o piloto mais lento passou na pista antes de completar a volta V-1, ou seja, devemos achar **V** tal que **V*X <= (V-1)*Y**. 
-Logo, **V = ⌈ Y  (Y-X) ⌉**.
+<p>Precisamos achar a primeira volta **V** tal que o tempo total que o piloto mais rápido passou na pista antes de completá-la é menor ou igual ao tempo que o piloto mais lento passou na pista antes de completar a volta V-1, ou seja, devemos achar **V** tal que **V*X <= (V-1)*Y**. 
+Logo, **V = ⌈ Y  (Y-X) ⌉**.</p>
 
-**Link:** [URI 1708](https://www.urionlinejudge.com.br/judge/pt/problems/view/1708).
-**Código:**[A - Corte](./2014/subregional/A-Volta/a.cpp)
+<p>**Link:** [URI 1708](https://www.urionlinejudge.com.br/judge/pt/problems/view/1708).</p>
+<p>**Código:** [A - Corte](https://github.com/LeticiaFCS/Maratona-de-Programacao/tree/master/2014/subregional/A%20-%20Volta)</p>
 
 
 
