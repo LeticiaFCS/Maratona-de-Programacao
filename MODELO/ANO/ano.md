@@ -15,4 +15,4 @@ _SEU NOME OU HANDLE AQUI_
 
 **Código:** [LETRA - Nome da Questão](./[subregional] ou [regional]/LETRA.cpp)
 
-[back](./)
+[voltar](././)
