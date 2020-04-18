@@ -46,11 +46,9 @@ _LeticiaFCS_
 **Código:** [D - Quebra-cabeça](./d.cpp)
 
 ### E - Espiral
-Na e-ésima volta da espiral andamos **4*[n - 2*(e-1)] - 4** posições. Se somarmos todas as posições que andamos até chegar ao fim da e-ésima espiral teremos um somatório até **e**: 
+Na e-ésima volta da espiral andamos **4×[n - 2×(e-1)] - 4** posições. Se somarmos todas as posições que andamos até chegar ao fim da e-ésima espiral teremos um somatório até **e**: 
 
- **Σ{4*[n - 2*(k-1)] - 4}**
- **= Σ[4*n - 4 - 8*(e-1)]**
- **= (4*n - 4)*e - 8*PA(e-1)]**
+**Σ{4×[n - 2×(k-1) ] - 4} = Σ[4×n - 4 - 8×(e-1)] = (4×n - 4)×e - 8×PA(e-1)**
 
 Podemos fazer uma busca binária nesse somatório (até a espiral de índice **⌈n÷2⌉**) e assim descobrir em qual espiral **e** está o feijão. Depois descobrimos em qual posição dessa espiral ele está andando (a partir da posição **[e,e]**) em cada lado dela o mínimo entre o tamanho do lado menos um e o número de posições que faltam para **b**.
 
