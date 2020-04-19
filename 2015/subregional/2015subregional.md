@@ -59,7 +59,7 @@ _LeticiaFCS_
 **Código:** [E - Espiral](./e.cpp)
 
 ### F - Fatorial
-Pela restrição de **N <= 1e5** nós só usaremos os fatoriais até **9! = 362880**. Podemos pré-computar os fatoriais até **9!** e usar [programação dinâmica para o problema da moeda](https://neps.academy/lesson/167) usando os fatoriais como "moedas" para calcular a resposta.
+Pela restrição de **N <= 1e5** nós só usaremos os fatoriais até **8! = 40320**. Podemos pré-computar os fatoriais até **8!** e usar [programação dinâmica para o problema da moeda](https://neps.academy/lesson/167) usando os fatoriais como "moedas" para calcular a resposta.
 
 _LeticiaFCS_
 
