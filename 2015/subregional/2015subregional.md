@@ -58,4 +58,13 @@ _LeticiaFCS_
 
 **Código:** [E - Espiral](./e.cpp)
 
+### F - Fatorial
+Pela restrição de **N <= 1e5** nós só usaremos os fatoriais até **9! = 362880**. Podemos pré-computar os fatoriais até **9!** e usar [programação dinâmica para o problema da moeda](https://neps.academy/lesson/167) usando os fatoriais como "moedas" para calcular a resposta.
+
+_LeticiaFCS_
+
+**Link:** [URI 1935](https://www.urionlinejudge.com.br/judge/pt/problems/view/1936) 
+
+**Código:** [F - Fatorial](./f.cpp)
+
 [voltar](https://leticiafcs.github.io/Maratona-de-Programacao/)
